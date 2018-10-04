@@ -30,7 +30,7 @@ function calculateQuestion () {
     // get the div in which we wish to write out the answer into. 
     var answerDiv = document.getElementById("answer");
     // write the answer into the div. 
-    answerDiv.innerHTML = "The answer is therefore that the Acela train travels at an average speed of 66 miles/hour."
+    answerDiv.innerHTML = "The answer is therefore that the Acela train travels at an average speed of" +  acelaAvgSpeed + "miles/hour."
     
     // call the fade in function to make the newly written answer fade in. 
     fadeIn ()
