@@ -1,0 +1,1 @@
+function calculate(){console.log(12.5),document.getElementById("hello").innerHTML=12.5}calculate();

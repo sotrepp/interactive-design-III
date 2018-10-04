@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="styles/styles_math.css" type="text/css" />
+            <!-- link to a Google font -->
+            <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+        </head>
+        <body>
+            <div id="container">
+                <div id="colorSquare">
+                
+                <h1> Javascript + Math Homework </h1>
+                <h2> October 3rd, 2018 </h2>
+                
+                <div id="question"> An Amtrak's Northeast Regional train from New York City to Boston travels at an average
+                 speed of 55 miles per hour and takes 4.2 hours to complete the journey. The Acela train completes the 
+                 same distance in 3.5 hours. How fast does it go?
+                </div>
+                
+                <!-- create a button which calls a Javascript function when clicked -->
+                <input onclick="calculateQuestion()" type="button" id="button1" value="Get the Solution">
+                
+                    <div id="solution">
+                        Amtrak train's speed: 55 miles/hour.<br>
+                        It completes the journey in 4.2 hours. <br>
+                        Therefore the distance to Boston is 55 * 4.2 = 231 miles. <br>
+                        The Acela train completes the same trip in 3.5 hours. 
+                    </div>
+                
+                    <div id="answer">
+                    <!-- the answer will be written into this DIV with Javascript -->
+                    </div>
+                 
+                </div>
+             
+            </div>
+        <!-- Link to Javascript -->
+        <script type="text/javascript" src="scripts/math_assignment.js"></script>
+            
+        </body>
+    </html>
